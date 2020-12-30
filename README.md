@@ -28,7 +28,7 @@ Kotlin 团队为 Android 开发提供了一套超越标准语言功能的工具�
     breakpad 也是利用这个原理来做的
     我将异常的堆栈信息 写入到目录 data/包名/native_crash 目录下
 
-## 通过继承 FileObserver 监听文件目录的改变 实现文件上传 
+## 通过继承 FileObserver 监听文件目录的改变 实现文件上传 (通过此实现 还可以实现/data/anr/ ***.trace 的文件监听 来达到线上anr监控的日志实现)
 
 ## 笔者在做测试时发现 FileObserver 在监听高版本 anr目录下 无法回掉onEvent方法  
 在这里我再提供一种思路来实现 有兴趣的可以去尝试
