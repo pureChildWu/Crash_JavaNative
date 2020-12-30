@@ -7,12 +7,7 @@ The Java Native method and Android method are implemented  Anr monitoring
 特意写一个 java Exception native Exception 的监听  并做一个存储 文件的上传没有实现  
 有想法的朋友可以自己去实现
 
-Kotlin 团队为 Android 开发提供了一套超越标准语言功能的工具：
-
-- [Kotlin Android 扩展](https://www.kotlincn.net/docs/tutorials/android-plugin.html)是一个编译器扩展， 可以让你摆脱代码中的 `findViewById()` 调用，并将其替换为合成的编译器生成的属性。
-- [Anko](http://github.com/kotlin/anko) 是一个提供围绕 Android API 的 Kotlin 友好的包装器的库 ，以及一个可以用 Kotlin 代码替换布局 .xml 文件的 DSL。
-
-项目框架使用了androidx的库
+项目框架使用了androidx的库 Kotlin
 
 ## （整个过程比较简单，所以我也就介绍的比较简单）
 ## 实现java Exception的思路
@@ -41,4 +36,10 @@ Kotlin 团队为 Android 开发提供了一套超越标准语言功能的工具�
   具体动的可以去看它实现的具体代码 上面我已经提供了链接
   
   
+  Kotlin 团队为 Android 开发提供了一套超越标准语言功能的工具：
+  
+  - [Kotlin Android 扩展](https://www.kotlincn.net/docs/tutorials/android-plugin.html)是一个编译器扩展， 可以让你摆脱代码中的 `findViewById()` 调用，并将其替换为合成的编译器生成的属性。
+  - [Anko](http://github.com/kotlin/anko) 是一个提供围绕 Android API 的 Kotlin 友好的包装器的库 ，以及一个可以用 Kotlin 代码替换布局 .xml 文件的 DSL。
+
+
 ## 此开源项目仅做学习交流使用, 不可用于任何商业用途，如果你觉得不错, 对你有帮助, 欢迎点个 star 谢谢
