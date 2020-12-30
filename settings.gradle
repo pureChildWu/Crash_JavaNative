@@ -1,0 +1,3 @@
+include ':CrashTrack'
+include ':app'
+rootProject.name = "Crash_JavaAndNDK"
